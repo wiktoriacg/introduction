@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
+    <title>Wiktoria Cioch-Gradzik’s Introductions Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,52 +14,107 @@
             overflow: hidden;
         }
         .main-info {
-            background: #333;
-            color: #fff;
+            background: #a1dbdf;
+            color: #000000;
             padding: 20px;
+            text-align: center;
+            border-radius: 10px;
         }
         .main-info h1 {
             margin: 0;
         }
-        .hobbies, .lewis, .course, .job {
+        .main-info h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .main-info img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .section {
             background: #e7e7e7;
             padding: 15px;
             margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .section h2 {
+            font-size: 24px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Heading Section -->
         <header class="main-info">
-            <h1>[Your First and Last Name]</h1>
-            <h1>Preferred Name: [Your Preferred Name]</h1>
+            <h1>Wiktoria Cioch-Gradzik’s Introductions Website</h1>
+            <h2>Preferred Name: Wiktoria/Wika</h2>
+            <p>
+                <a href="mailto:wiktorianciochgrad@lewisu.edu">wiktorianciochgrad@lewisu.edu</a>
+            </p>
+            <p>Discord: Wiktoria0156_64536</p>
+            <p>
+                <a href="me-800-by-800.png" target="_blank">
+                    <img src="me-300-by-300.png" alt="My Picture">
+                </a>
+            </p>
         </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: [Your Years at Lewis]</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+        <!-- Introduction Section -->
+        <section class="section">
+            <h2>Introduction</h2>
+            <p>
+                I'm a junior and this is my third year at Lewis University. My major is computer science, 
+                and I am minoring in mathematics. I love programming, and in the future, I aspire to work as a game developer.
+                I come from Poland and I live in Katowice (more in the south of Poland) with my parents and a rabbit.
+            </p>
         </section>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
+        <!-- What I Hope to Learn in this Course -->
+        <section class="section">
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul>
+                <li>I'm taking this course because I believe it contains key knowledge in application development.</li>
+                <li>I would like to learn more about HTML, CSS and JavaScript.</li>
+                <li>I would love to know more abour Azure and it's possibilities</li>
+                <li>This is required class</li>
+            </ul>
         </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
-
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
+        <!-- Favorite Hobby / Activity -->
+        <section class="section">
+            <h2>My Favorite Hobby / Activity</h2>
+            <ul>
+                <li>Swimming – I’m on the swim team at university</li>
+                <li>I love reading fantasy books, drawing and writing</li>
+                <li>
+                    Playing computer games (My favorite game is 
+                    <a href="https://thewitcher.com/en/" target="_blank">The Witcher</a>)
+                </li>
+                <li>I have recently started to like cooking - probably because of the “quality” of food in the United States.</li>
+                <li>I love kayaking and fishing.</li>
+            </ul>
         </section>
 
-        <section class="fun-fact">
+        <!-- Fun Fact Section -->
+        <section class="section">
             <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
+            <p>
+                I swam 12.5 km in a lake (approximately 7.76 miles)
+            </p>
         </section>
     </div>
+    <p style="text-align: center;">Last Updated: January 27, 2025</p>
 </body>
 </html>
